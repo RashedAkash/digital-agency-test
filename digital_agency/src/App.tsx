@@ -8,6 +8,7 @@ import imageUrl from '../public/image/Ellipse 3.svg'
 import Testimonial from './components/testimonial/Testimonial';
 import CompanyLogo from './components/companyLogo/CompanyLogo';
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 function App() {
  
@@ -40,6 +41,7 @@ function App() {
         </div>
         <Testimonial />
         <CustomerSupport />
+        <Footer />
       </div>
     </>
   );

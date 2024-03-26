@@ -16,7 +16,7 @@ const Hero = () => {
       <Container>
         <div
          
-          className="hero"
+          className="hero mb-100"
         >
           <div className="hero-text">
             <SectionTitle
