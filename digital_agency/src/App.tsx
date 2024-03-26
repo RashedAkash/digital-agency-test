@@ -4,7 +4,7 @@ import BrandingAndDesgin from './components/brandignDesign/BrandingAndDesgin';
 import CustomPlugin from './components/customPlugin/CustomPlugin';
 import CustomerSupport from './components/customerSupport/CustomerSupport'
 import Hero from './components/hero/Hero'
-import imageUrl from '/image/Ellipse 3.svg'
+import imageUrl from '../public/image/Ellipse 3.svg'
 import Testimonial from './components/testimonial/Testimonial';
 import CompanyLogo from './components/companyLogo/CompanyLogo';
 import Navbar from './components/navbar/Navbar';
@@ -18,7 +18,7 @@ function App() {
         <div
           style={{
             backgroundImage: `url(${imageUrl})`,
-            backgroundPosition: "left", // Background positioned to the left
+            backgroundPosition: " left top",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}

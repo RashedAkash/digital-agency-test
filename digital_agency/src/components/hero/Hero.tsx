@@ -3,7 +3,7 @@ import Container from "../../shared/Container";
 import FullWidth from "../../shared/FullWidth";
 import SectionText from "../../shared/SectionText";
 import SectionTitle from "../../shared/SectionTitle";
-
+import imageUrl from "/image/Ellipse 3.svg";
 const Hero = () => {
    const titleStyle: React.CSSProperties = {   
      fontSize: "64px",     
@@ -14,7 +14,10 @@ const Hero = () => {
   return (
     <FullWidth>
       <Container>
-        <div className="hero">
+        <div
+         
+          className="hero"
+        >
           <div className="hero-text">
             <SectionTitle
               style={titleStyle}
@@ -25,7 +28,7 @@ const Hero = () => {
               text="Digital Agency is your online team management tool that easy and prompt
 "
             />
-            <BlueButton text="contact"/>
+            <BlueButton text="contact" />
           </div>
           <div className="hero-img">
             <img
