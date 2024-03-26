@@ -1,3 +1,4 @@
+import BlueButton from "../../shared/BlueButton";
 import Container from "../../shared/Container";
 import FullWidth from "../../shared/FullWidth";
 import SectionText from "../../shared/SectionText";
@@ -24,6 +25,7 @@ const Hero = () => {
               text="Digital Agency is your online team management tool that easy and prompt
 "
             />
+            <BlueButton text="contact"/>
           </div>
           <div className="hero-img">
             <img
