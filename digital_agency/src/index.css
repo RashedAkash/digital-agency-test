@@ -1,8 +1,8 @@
 /* styles.css */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .full-width {
@@ -10,39 +10,111 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.container{
-   max-width: 1170px;
+.container {
+  max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
 }
 
 /* hero */
-.hero{
-display: flex;
-align-items: center;
+.hero {
+  display: flex;
+  align-items: center;
 }
-.hero-text{
-flex: 50%;
+.hero-text {
+  flex: 50%;
 }
-.hero-img{
-flex: 50%;
+.hero-img {
+  flex: 50%;
 }
 
 /* shared */
-.section-title{
-  color: #272D38;
+.section-title {
+  color: #272d38;
   font-family: Inter;
-font-size: 48px;
-font-weight: 700;
-text-transform: capitalize;
-margin-bottom: 24px;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 24px;
 }
-.section-text{
-  color: #272D38;
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-line-height: 27.5px; 
-text-transform: capitalize;
-width: 80%;
+.section-text {
+  color: #272d38;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.5px;
+  text-transform: capitalize;
+  width: 80%;
+}
+
+/* Tiny Screen */
+@media (min-width: 320px) and (max-width: 375px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .section-title {
+    font-size: 35px !important;
+    text-align: center;
+  }
+  .section-text {
+  text-align: center;
+   width: 100% !important;
+}
+ .hero-img img {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+  }
+
+}
+
+/* Small Screen */
+@media (min-width: 376px) and (max-width: 767px) {
+.hero {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .section-title {
+    font-size: 35px !important;
+    text-align: center;
+  }
+  .section-text {
+  text-align: center;
+  width: 100%;
+}
+ .hero-img img {
+    width: 100% !important;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Medium Screen */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Your CSS styles for medium screens go here */
+}
+
+/* Large Screen */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Your CSS styles for large screens go here */
+}
+
+/* Extra Large Screen */
+@media (min-width: 1280px) and (max-width: 1535px) {
+  /* Your CSS styles for extra large screens go here */
+}
+
+/* 2 Extra Large Screen */
+@media (min-width: 1536px) and (max-width: 1919px) {
+  /* Your CSS styles for 2 extra large screens go here */
+}
+
+/* 3 Extra Large Screen */
+@media (min-width: 1920px) {
+  /* Your CSS styles for 3 extra large screens go here */
 }
