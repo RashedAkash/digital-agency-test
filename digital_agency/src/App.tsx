@@ -1,5 +1,6 @@
 
 import './App.css'
+import CustomPlugin from './components/customPlugin/CustomPlugin';
 import CustomerSupport from './components/customerSupport/CustomerSupport'
 import Hero from './components/hero/Hero'
 
@@ -10,6 +11,7 @@ function App() {
     <>
       <div className='main'>
         <Hero />
+        <CustomPlugin />
         <CustomerSupport />
       </div>
     </>
