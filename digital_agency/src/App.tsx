@@ -4,7 +4,8 @@ import BrandingAndDesgin from './components/brandignDesign/BrandingAndDesgin';
 import CustomPlugin from './components/customPlugin/CustomPlugin';
 import CustomerSupport from './components/customerSupport/CustomerSupport'
 import Hero from './components/hero/Hero'
-import imageUrl from '../public/image/Ellipse 3.svg'
+import imageUrl from '/image/Ellipse 3.svg'
+import Testimonial from './components/testimonial/Testimonial';
 
 function App() {
  
@@ -24,6 +25,7 @@ function App() {
           <BrandingAndDesgin />
           <CustomPlugin />
         </div>
+        <Testimonial />
         <CustomerSupport />
       </div>
     </>
