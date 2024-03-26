@@ -131,25 +131,45 @@ body {
 }
 
 /* company-logo */
-.company-logo{
+.company-logo {
   max-width: 915px;
   margin: 0 auto;
-  
 }
-.company-title{
+.company-title {
   text-align: center;
 }
 .image-grid {
- display: flex;
- justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
   border-radius: 8px;
   background: #f6f6f6;
-  
 }
 
 .image-item img {
-   padding: 24px;
-  
+  padding: 24px;
+}
+/* navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.navbar-list {
+  display: flex;
+}
+.navbar-link{
+  margin-left: 50px;
+  list-style: none;
+}
+.navbar-link a {
+  color: #272d38;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.5px; /* 152.778% */
+  text-transform: lowercase;  
+  text-decoration: none;
 }
 
 /* Tiny Screen */

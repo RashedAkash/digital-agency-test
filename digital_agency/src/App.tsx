@@ -7,6 +7,7 @@ import Hero from './components/hero/Hero'
 import imageUrl from '/image/Ellipse 3.svg'
 import Testimonial from './components/testimonial/Testimonial';
 import CompanyLogo from './components/companyLogo/CompanyLogo';
+import Navbar from './components/navbar/Navbar';
 
 function App() {
  
@@ -14,7 +15,17 @@ function App() {
   return (
     <>
       <div className="main">
-        <Hero />
+        <div
+          style={{
+            backgroundImage: `url(${imageUrl})`,
+            backgroundPosition: "left", // Background positioned to the left
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <Navbar />
+          <Hero />
+        </div>
         <CompanyLogo />
         <div
           style={{
@@ -26,7 +37,7 @@ function App() {
         >
           <BrandingAndDesgin />
           <CustomPlugin />
-        C</div>
+        </div>
         <Testimonial />
         <CustomerSupport />
       </div>

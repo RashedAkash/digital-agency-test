@@ -11,7 +11,7 @@ const BrandingAndDesgin = () => {
   return (
     <FullWidth>
       <Container>
-        <div className="customer-support bg-none">
+        <div className="customer-support bg-none mt-100 mb-100">
           <div className="customer-support-img block">
             <img
               src="../../../public/image/branding/designer-team-working-on-creative-design.svg"
