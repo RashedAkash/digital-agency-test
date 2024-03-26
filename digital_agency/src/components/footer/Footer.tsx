@@ -1,5 +1,6 @@
 import Container from "../../shared/Container";
 import FullWidth from "../../shared/FullWidth";
+import SectionSubTitle from "../../shared/SectionSubTitle";
 
 
 const Footer = () => {
@@ -68,6 +69,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
+          <p className="footer-text mt-100 middle">© Matheus. Todos os direitos reservados</p>
         </Container>
       </div>
     </FullWidth>

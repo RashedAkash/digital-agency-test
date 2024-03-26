@@ -224,6 +224,7 @@ text-transform: capitalize;
 .pl-20{
   padding-left: 37px;
 }
+.middle{text-align: center;}
 /* Tiny Screen */
 @media (min-width: 320px) and (max-width: 375px) {
   .footer-col{
@@ -422,6 +423,10 @@ text-transform: capitalize;
 
 /* Medium Screen */
 @media (min-width: 768px) and (max-width: 1023px) {
+  .testimonial {
+    grid-template-columns: 1fr 1fr; /* Two columns for medium screens */
+    margin: 0 15px;
+  }
   .section-title {
     font-size: 48px !important;
   }
@@ -445,8 +450,9 @@ text-transform: capitalize;
   .hero {
     padding: 0 50px;
   }
-  .testimonial {
-    grid-template-columns: 1fr 1fr; /* Two columns for medium screens */
+   .testimonial {
+   
+    margin: 0 15px;
   }
 }
 
