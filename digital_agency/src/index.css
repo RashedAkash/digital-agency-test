@@ -38,6 +38,9 @@ body {
   padding-left: 75px;
   padding-right: 75px;
 }
+.customer-support.bg-none {
+  background: none;
+}
 .customer-support-img {
   flex: 50%;
 }
@@ -75,7 +78,7 @@ body {
   border: none;
   padding: 10px 30px;
 }
-.arrow{
+.arrow {
   color: #272d38;
 }
 /* Tiny Screen */
@@ -114,13 +117,23 @@ body {
     margin-right: 15px;
     padding: 20px;
   }
+
   .customer-support-img img {
     display: none;
   }
-  .arrow{
-  text-align: center;
-  transform: rotate(450deg);
+  .arrow {
+    text-align: center;
+    transform: rotate(450deg);
+  }
+  /* branding & design */
+  .customer-support.bg-none {
+  display: flex;
+  flex-direction: column-reverse;
 }
+.customer-support-img.block img {
+    display: block;
+    width: 100%;
+  }
 }
 
 /* Small Screen */
@@ -162,10 +175,19 @@ body {
   .customer-support-img img {
     display: none;
   }
-  .arrow{
-  text-align: center;
-  transform: rotate(450deg);
+  .arrow {
+    text-align: center;
+    transform: rotate(450deg);
+  }
+   /* branding & design */
+  .customer-support.bg-none {
+  display: flex;
+  flex-direction: column-reverse;
 }
+.customer-support-img.block img {
+    display: block;
+    width: 100%;
+  }
 }
 
 /* Medium Screen */

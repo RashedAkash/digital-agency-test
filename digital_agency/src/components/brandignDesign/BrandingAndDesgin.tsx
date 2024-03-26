@@ -4,33 +4,29 @@ import SectionText from "../../shared/SectionText";
 import SectionTitle from "../../shared/SectionTitle";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-const CustomPlugin = () => {
+const BrandingAndDesgin = () => {
   const textStyle: React.CSSProperties = {
-    width: "66%",
+    width: "75%",
   };
   return (
     <FullWidth>
       <Container>
-        <div
-         
-          className="hero"
-        >
-          <div className="hero-text">
-            <SectionTitle title="Custome & Plugin Development" />
+        <div className="customer-support bg-none">
+          <div className="customer-support-img block">
+            <img
+              src="../../../public/image/branding/designer-team-working-on-creative-design.svg"
+              alt=""
+            />
+          </div>
+          <div className="customer-support-text">
+            <SectionTitle title="Branding & Design system" />
             <SectionText
               style={textStyle}
               text="Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups"
             />
-
             <div className="arrow">
               <FaArrowRightLong />
             </div>
-          </div>
-          <div className="hero-img">
-            <img
-              src="../../../public/image/plugin/businessman-analyzing-data.svg"
-              alt=""
-            />
           </div>
         </div>
       </Container>
@@ -38,4 +34,4 @@ const CustomPlugin = () => {
   );
 };
 
-export default CustomPlugin;
+export default BrandingAndDesgin;
