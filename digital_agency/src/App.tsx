@@ -6,6 +6,7 @@ import CustomerSupport from './components/customerSupport/CustomerSupport'
 import Hero from './components/hero/Hero'
 import imageUrl from '/image/Ellipse 3.svg'
 import Testimonial from './components/testimonial/Testimonial';
+import CompanyLogo from './components/companyLogo/CompanyLogo';
 
 function App() {
  
@@ -14,6 +15,7 @@ function App() {
     <>
       <div className="main">
         <Hero />
+        <CompanyLogo />
         <div
           style={{
             backgroundImage: `url(${imageUrl})`,
@@ -24,7 +26,7 @@ function App() {
         >
           <BrandingAndDesgin />
           <CustomPlugin />
-        </div>
+        C</div>
         <Testimonial />
         <CustomerSupport />
       </div>

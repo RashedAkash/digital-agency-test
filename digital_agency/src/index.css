@@ -1,13 +1,10 @@
 /* src/index.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
-
-
-
 
 .full-width {
   max-width: 1440px;
@@ -19,7 +16,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.main{
+.main {
   overflow-x: hidden;
 }
 
@@ -131,6 +128,28 @@ body {
   font-weight: 300;
   line-height: 130%; /* 18.2px */
   text-transform: capitalize;
+}
+
+/* company-logo */
+.company-logo{
+  max-width: 915px;
+  margin: 0 auto;
+  
+}
+.company-title{
+  text-align: center;
+}
+.image-grid {
+ display: flex;
+ justify-content: space-around;
+  border-radius: 8px;
+  background: #f6f6f6;
+  
+}
+
+.image-item img {
+   padding: 24px;
+  
 }
 
 /* Tiny Screen */
