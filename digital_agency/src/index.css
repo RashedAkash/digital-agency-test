@@ -106,6 +106,7 @@ body {
 .mb-45 {
   margin-bottom: 45px;
 }
+
 .mt-45 {
   margin-top: 40px;
 }
@@ -190,11 +191,25 @@ body {
   align-items: center;
 }
 .branding-section-img {
+   width: 450px;
+height: 450px;
+flex-shrink: 0;
   margin-right: 180px;
 }
-.branding-section-img img {
+/* customer-plugin */
+.customer-plugin{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.branding-section-text {
+.customer-plugin-text{}
+.customer-plugin-img{
+  width: 450px;
+height: 450px;
+flex-shrink: 0;
+}
+.customer-plugin-img img{
+
 }
 /* navbar */
 .navbar {
@@ -281,6 +296,17 @@ body {
 }
 /* Tiny Screen */
 @media (min-width: 320px) and (max-width: 375px) {
+  .customer-plugin{
+  display: flex;
+  flex-direction: column;
+}
+.customer-plugin-img img{
+width: 70%;
+display: block;
+ margin: 0 auto;
+}
+
+
   .branding-section{
     display: flex;
     flex-direction: column-reverse;
@@ -290,7 +316,9 @@ body {
   margin-right: 0px;
 }
 .branding-section-img img {
-  width: 100%;
+  width: 70%;
+ display: block;
+ margin: 0 auto;
 }
 
   .image-grid {
@@ -415,6 +443,14 @@ body {
 
 /* Small Screen */
 @media (min-width: 376px) and (max-width: 767px) {
+    .customer-plugin{
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+}
+.customer-plugin-img img{
+width: 100%;
+}
    .branding-section{
     display: flex;
     flex-direction: column-reverse;

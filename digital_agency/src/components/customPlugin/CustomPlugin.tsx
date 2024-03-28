@@ -11,26 +11,24 @@ const CustomPlugin = () => {
   return (
     <FullWidth>
       <Container>
-        <div
-         
-          className="hero"
-        >
-          <div className="hero-text">
-            <SectionTitle title="Custome & Plugin Development" />
-            <SectionText
-              style={textStyle}
-              text="Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups"
-            />
+        <div className="customer-plugin mt-150">
+          <div className="customer-plugin-text">
+            <div className="mb-45">
+              <SectionTitle title="Custome & Plugin Development" />
+            </div>
+            <div>
+              <SectionText
+                style={textStyle}
+                text="Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups"
+              />
+            </div>
 
-            <div className="arrow">
+            <div className="arrow mt-45">
               <FaArrowRightLong />
             </div>
           </div>
-          <div className="hero-img">
-            <img
-              src="/image/plugin/businessman-analyzing-data.svg"
-              alt=""
-            />
+          <div className="customer-plugin-img">
+            <img src="/image/plugin/businessman-analyzing-data.svg" alt="" />
           </div>
         </div>
       </Container>
