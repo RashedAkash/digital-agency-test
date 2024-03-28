@@ -11,14 +11,14 @@ const BrandingAndDesgin = () => {
   return (
     <FullWidth>
       <Container>
-        <div className="customer-support bg-none mt-100 mb-100">
-          <div className="customer-support-img block">
+        <div className="branding-section bg-none mt-100 mb-100">
+          <div className="branding-section-img block">
             <img
               src="/image/branding/designer-team-working-on-creative-design.svg"
               alt=""
             />
           </div>
-          <div className="customer-support-text">
+          <div className="branding-section-text">
             <SectionTitle title="Branding & Design system" />
             <SectionText
               style={textStyle}
