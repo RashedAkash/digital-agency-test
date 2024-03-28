@@ -11,7 +11,7 @@ const BrandingAndDesgin = () => {
   return (
     <FullWidth>
       <Container>
-        <div className="branding-section bg-none mt-100 mb-100">
+        <div className="branding-section bg-none mt-150 mb-100">
           <div className="branding-section-img block">
             <img
               src="/image/branding/designer-team-working-on-creative-design.svg"
@@ -24,7 +24,7 @@ const BrandingAndDesgin = () => {
               style={textStyle}
               text="Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups"
             />
-            <div className="arrow">
+            <div className="arrow mt-45">
               <FaArrowRightLong />
             </div>
           </div>
