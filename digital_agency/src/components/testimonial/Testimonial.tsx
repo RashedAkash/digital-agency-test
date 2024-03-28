@@ -20,15 +20,19 @@ const Testimonial = () => {
   return (
     <FullWidth>
       <Container>
-        <div className="mt-100 mb-100">
+        <div className="  mt-150 responsive-mt ">
           <div>
-            <SectionSubTitle style={subTitleStyle} title="testimonial" />
-            <SectionTitle
-              style={titleStyle}
-              title="Read What Other have to Say"
-            />
+            <div className="mb-15">
+              <SectionSubTitle style={subTitleStyle} title="testimonial" />
+            </div>
+            <div className="mb-45">
+              <SectionTitle
+                style={titleStyle}
+                title="Read What Other have to Say"
+              />
+            </div>
           </div>
-          <div className="testimonial">
+          <div className="testimonial ">
             {testimonialData?.map((test, index) => (
               <TestimonialCard key={index} test={test} />
             ))}

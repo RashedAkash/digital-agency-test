@@ -13,7 +13,7 @@ interface TestimonialCardProps {
 const TestimonialCard: FC<TestimonialCardProps> = ({ test }) => {
   return (
     <div className="testimonial-card">
-      <div>
+      <div className="testimonial-img">
         <img src={test?.image} alt="" />
       </div>
       <div>
