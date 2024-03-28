@@ -7,7 +7,8 @@ import SectionText from "../../shared/SectionText";
 const Hero = () => {
    
    const textStyle: React.CSSProperties = {   
-     fontSize: "18px",     
+     fontSize: "18px",   
+     width:"85%"
    };
   return (
     <FullWidth>

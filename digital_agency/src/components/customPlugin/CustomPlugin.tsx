@@ -6,14 +6,14 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const CustomPlugin = () => {
   const textStyle: React.CSSProperties = {
-    width: "66%",
+    width: "64%",
   };
   return (
     <FullWidth>
       <Container>
         <div className="customer-plugin mt-150">
           <div className="customer-plugin-text">
-            <div className="mb-45">
+            <div className="mb-25">
               <SectionTitle title="Custome & Plugin Development" />
             </div>
             <div>

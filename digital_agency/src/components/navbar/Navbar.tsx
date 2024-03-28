@@ -37,8 +37,8 @@ const Navbar = () => {
           </div>
         </div>
         {/* <menu></menu> */}
-        <div className="navbar">
-          <div>
+        <div className="navbar mb-100">
+          <div className="navbar-logo">
             <img src="/image/logo/logo.svg" alt="" />
           </div>
           <div>
