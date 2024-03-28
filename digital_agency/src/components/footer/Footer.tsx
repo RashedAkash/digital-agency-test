@@ -1,6 +1,6 @@
 import Container from "../../shared/Container";
 import FullWidth from "../../shared/FullWidth";
-import SectionSubTitle from "../../shared/SectionSubTitle";
+
 
 
 const Footer = () => {

@@ -28,7 +28,7 @@ const CustomPlugin = () => {
           </div>
           <div className="hero-img">
             <img
-              src="../../../public/image/plugin/businessman-analyzing-data.svg"
+              src="/image/plugin/businessman-analyzing-data.svg"
               alt=""
             />
           </div>

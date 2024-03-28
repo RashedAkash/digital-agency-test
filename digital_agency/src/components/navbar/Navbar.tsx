@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* mobile menu */}
         <div className="mobile-menu desktop-hidden">
           <div>
-            <img src="../../../public/image/logo/logo.svg" alt="" />
+            <img src="/image/logo/logo.svg" alt="" />
           </div>
           <div className="menu-icon" onClick={() => setIsOpen(!isOpen)}>
             <IoMenuSharp />
@@ -39,7 +39,7 @@ const Navbar = () => {
         {/* <menu></menu> */}
         <div className="navbar">
           <div>
-            <img src="../../../public/image/logo/logo.svg" alt="" />
+            <img src="/image/logo/logo.svg" alt="" />
           </div>
           <div>
             <ul className="navbar-list">

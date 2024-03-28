@@ -14,7 +14,7 @@ const BrandingAndDesgin = () => {
         <div className="customer-support bg-none mt-100 mb-100">
           <div className="customer-support-img block">
             <img
-              src="../../../public/image/branding/designer-team-working-on-creative-design.svg"
+              src="/image/branding/designer-team-working-on-creative-design.svg"
               alt=""
             />
           </div>

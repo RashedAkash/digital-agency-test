@@ -18,7 +18,7 @@ const CustomerSupport = () => {
         <div className="customer-support">
           <div className="customer-support-img">
             <img
-              src="../../../public/image/customerSupport/customer-support.svg"
+              src="/image/customerSupport/customer-support.svg"
               alt=""
             />
           </div>

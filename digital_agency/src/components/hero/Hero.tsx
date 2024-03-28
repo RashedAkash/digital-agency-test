@@ -2,37 +2,33 @@ import BlueButton from "../../shared/BlueButton";
 import Container from "../../shared/Container";
 import FullWidth from "../../shared/FullWidth";
 import SectionText from "../../shared/SectionText";
-import SectionTitle from "../../shared/SectionTitle";
-import imageUrl from "/image/Ellipse 3.svg";
+
+
 const Hero = () => {
-   const titleStyle: React.CSSProperties = {   
-     fontSize: "64px",     
-   };
+   
    const textStyle: React.CSSProperties = {   
      fontSize: "18px",     
    };
   return (
     <FullWidth>
       <Container>
-        <div
-         
-          className="hero mb-100"
-        >
+        <div className="hero mb-150 ">
           <div className="hero-text">
-            <SectionTitle
-              style={titleStyle}
-              title="Building digital products, brands & experience"
-            />
-            <SectionText
-              style={textStyle}
-              text="Digital Agency is your online team management tool that easy and prompt
+            <h1 className="hero-title">
+              Building digital products, brands & experience
+            </h1>
+            <div className="hero-pra">
+              <SectionText
+                style={textStyle}
+                text="Digital Agency is your online team management tool that easy and prompt
 "
-            />
-            <BlueButton text="contact" />
+              />
+            </div>
+            <BlueButton text="contact us" />
           </div>
           <div className="hero-img">
             <img
-              src="../../../public/image/hero/business-people-discussing-business-idea.svg"
+              src="/image/hero/business-people-discussing-business-idea.svg"
               alt=""
             />
           </div>
