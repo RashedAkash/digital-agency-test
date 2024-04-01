@@ -1,18 +1,17 @@
 import { useState } from "react";
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
+
 import { IoMenuSharp } from "react-icons/io5";
-
-
+import ContainerFulid from '../../shared/ContainerFulid'
 const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
 
-   
   return (
-    <FullWidth>
+    <ContainerFulid
+    >
       <Container>
         {/* mobile menu */}
-        <div className="mobile-menu desktop-hidden">
+        <header className="mobile-menu desktop-hidden">
           <div>
             <img src="/image/logo/logo.svg" alt="" />
           </div>
@@ -35,9 +34,9 @@ const Navbar = () => {
               </ul>
             )}
           </div>
-        </div>
+        </header>
         {/* <menu></menu> */}
-        <div className="navbar mb-100">
+        <header className="navbar ">
           <div className="navbar-logo">
             <img src="/image/logo/logo.svg" alt="" />
           </div>
@@ -57,9 +56,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </header>
       </Container>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 

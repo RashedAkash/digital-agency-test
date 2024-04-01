@@ -16,32 +16,27 @@ function App() {
   return (
     <>
       <div className="main">
-        <div
-          style={{
-            backgroundImage: `url(${imageUrl})`,
-            backgroundPosition: " left top",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <Navbar />
+        <Navbar />
+
+        <div className='ml-3'>
           <Hero />
+
+          <CompanyLogo />
+          <div
+            style={{
+              backgroundImage: `url(${imageUrl})`,
+              backgroundPosition: "right",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+            <BrandingAndDesgin />
+            <CustomPlugin />
+          </div>
+          <Testimonial />
+          <CustomerSupport />
+          <Footer />
         </div>
-        <CompanyLogo />
-        <div
-          style={{
-            backgroundImage: `url(${imageUrl})`,
-            backgroundPosition: "right",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <BrandingAndDesgin />
-          <CustomPlugin />
-        </div>
-        <Testimonial />
-        <CustomerSupport />
-        <Footer />
       </div>
     </>
   );

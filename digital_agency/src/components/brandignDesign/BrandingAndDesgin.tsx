@@ -1,17 +1,17 @@
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
+
 import SectionText from "../../shared/SectionText";
 import SectionTitle from "../../shared/SectionTitle";
 import { FaArrowRightLong } from "react-icons/fa6";
-
+import ContainerFulid from "../../shared/ContainerFulid";
 const BrandingAndDesgin = () => {
   const textStyle: React.CSSProperties = {
-    width: "75%",
+    width: "90%",
   };
   return (
-    <FullWidth>
+    <ContainerFulid>
       <Container>
-        <div className="branding-section bg-none mt-150 mb-100">
+        <section className="branding-section bg-none mt-138  ">
           <div className="branding-section-img block">
             <img
               src="/image/branding/designer-team-working-on-creative-design.svg"
@@ -28,9 +28,9 @@ const BrandingAndDesgin = () => {
               <FaArrowRightLong />
             </div>
           </div>
-        </div>
+        </section>
       </Container>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 

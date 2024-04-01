@@ -1,23 +1,20 @@
 import BlueButton from "../../shared/BlueButton";
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
+import ContainerFulid from "../../shared/ContainerFulid";
 import SectionText from "../../shared/SectionText";
 import SectionTitle from "../../shared/SectionTitle";
 
-
 const CustomerSupport = () => {
-   const titleStyle: React.CSSProperties = {
-     
-     textTransform: "none",
-   };
+  const titleStyle: React.CSSProperties = {
+    textTransform: "none",
+  };
   const textStyle: React.CSSProperties = {
-    width: "70%",
-   
+    width: "85%",
   };
   return (
-    <FullWidth>
+    <ContainerFulid>
       <Container>
-        <div className="customer-support mt-135">
+        <div className="customer-support mt-133">
           <div className="customer-support-img">
             <img src="/image/customerSupport/customer-support.svg" alt="" />
           </div>
@@ -39,7 +36,7 @@ const CustomerSupport = () => {
           </div>
         </div>
       </Container>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 

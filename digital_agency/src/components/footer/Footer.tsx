@@ -1,13 +1,10 @@
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
-
-
+import ContainerFulid from "../../shared/ContainerFulid";
 
 const Footer = () => {
-  
   return (
-    <FullWidth>
-      <div className="full-footer mt-135">
+    <ContainerFulid>
+      <div className="full-footer mt-138">
         <Container>
           <div className="footer">
             <div className="footer-col footer-logo">
@@ -17,7 +14,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="footer-col footer-resource">
-              <h2 className="footer-title pl-20">Resources</h2>
+              <h2 className="footer-title ">Resources</h2>
               <ul>
                 <li className="footer-link">
                   <a href="">Guides</a>
@@ -35,7 +32,7 @@ const Footer = () => {
             </div>
             <div className="footer-col footer-company">
               {" "}
-              <h2 className="footer-title pl-20">Company</h2>
+              <h2 className="footer-title ">Company</h2>
               <ul>
                 <li className="footer-link">
                   <a href="">About us</a>
@@ -53,7 +50,7 @@ const Footer = () => {
             </div>
             <div className="footer-col footer-social-link">
               {" "}
-              <h2 className="footer-title pl-20">Social media</h2>
+              <h2 className="footer-title ">Social media</h2>
               <ul>
                 <li className="footer-link">
                   <a href="">Linkedin</a>
@@ -70,10 +67,12 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <p className="footer-text  middle">© Matheus. Todos os direitos reservados</p>
+          <p className="footer-text  middle">
+            © Matheus. Todos os direitos reservados
+          </p>
         </Container>
       </div>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 

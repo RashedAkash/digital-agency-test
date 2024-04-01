@@ -1,19 +1,17 @@
 import BlueButton from "../../shared/BlueButton";
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
+import ContainerFulid from '../../shared/ContainerFulid'
 import SectionText from "../../shared/SectionText";
 
-
 const Hero = () => {
-   
-   const textStyle: React.CSSProperties = {   
-     fontSize: "18px",   
-     width:"85%"
-   };
+  const textStyle: React.CSSProperties = {
+    fontSize: "18px",
+    width: "85%",
+  };
   return (
-    <FullWidth>
+    <ContainerFulid>
       <Container>
-        <div className="hero mb-150 ">
+        <section className="hero mb-160 ">
           <div className="hero-text">
             <h1 className="hero-title">
               Building digital products, brands & experience
@@ -33,9 +31,9 @@ const Hero = () => {
               alt=""
             />
           </div>
-        </div>
+        </section>
       </Container>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 

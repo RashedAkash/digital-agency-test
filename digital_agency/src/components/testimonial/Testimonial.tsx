@@ -1,5 +1,5 @@
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
+import ContainerFulid from "../../shared/ContainerFulid";
 import SectionSubTitle from "../../shared/SectionSubTitle";
 import SectionTitle from "../../shared/SectionTitle";
 import { testimonialData } from "../../../public/data/testimonial";
@@ -18,12 +18,12 @@ const Testimonial = () => {
     textTransform: "uppercase",
   };
   return (
-    <FullWidth>
+    <ContainerFulid>
       <Container>
-        <div className="  mt-150 responsive-mt ">
+        <section className="  mt-138 responsive-mt ">
           <div>
             <div className="mb-15">
-              <SectionSubTitle style={subTitleStyle} title="testimonial" />
+              <SectionSubTitle style={subTitleStyle} title="testimonials" />
             </div>
             <div className="mb-45">
               <SectionTitle
@@ -37,9 +37,9 @@ const Testimonial = () => {
               <TestimonialCard key={index} test={test} />
             ))}
           </div>
-        </div>
+        </section>
       </Container>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 

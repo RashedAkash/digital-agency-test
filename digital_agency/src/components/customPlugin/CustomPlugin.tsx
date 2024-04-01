@@ -1,5 +1,5 @@
 import Container from "../../shared/Container";
-import FullWidth from "../../shared/FullWidth";
+import ContainerFulid from "../../shared/ContainerFulid";
 import SectionText from "../../shared/SectionText";
 import SectionTitle from "../../shared/SectionTitle";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -9,9 +9,9 @@ const CustomPlugin = () => {
     width: "64%",
   };
   return (
-    <FullWidth>
+    <ContainerFulid>
       <Container>
-        <div className="customer-plugin mt-150">
+        <section className="customer-plugin  ">
           <div className="customer-plugin-text">
             <div className="mb-25">
               <SectionTitle title="Custome & Plugin Development" />
@@ -30,9 +30,9 @@ const CustomPlugin = () => {
           <div className="customer-plugin-img">
             <img src="/image/plugin/businessman-analyzing-data.svg" alt="" />
           </div>
-        </div>
+        </section>
       </Container>
-    </FullWidth>
+    </ContainerFulid>
   );
 };
 
