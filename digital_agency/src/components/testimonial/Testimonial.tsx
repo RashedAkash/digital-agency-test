@@ -7,12 +7,12 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonial = () => {
   const titleStyle: React.CSSProperties = {
-    width: "45%",
+   
     margin: "0 auto",
     textAlign: "center",
   };
   const subTitleStyle: React.CSSProperties = {
-    width: "45%",
+    
     margin: "0 auto",
     textAlign: "center",
     textTransform: "uppercase",
@@ -20,12 +20,12 @@ const Testimonial = () => {
   return (
     <ContainerFulid>
       <Container>
-        <section className="  mt-138 responsive-mt ">
+        <section className=" testimonials  responsive-mt ">
           <div>
-            <div className="mb-10">
+            <div className="testimonial-title">
               <SectionSubTitle style={subTitleStyle} title="testimonials" />
             </div>
-            <div className="mb-38">
+            <div className="testimonial-title">
               <SectionTitle
                 style={titleStyle}
                 title="Read What Other have to Say"

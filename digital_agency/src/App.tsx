@@ -18,7 +18,7 @@ function App() {
       <div className="main">
         <Navbar />
 
-        <div className='ml-3'>
+        <div className=''>
           <Hero />
 
           <CompanyLogo />

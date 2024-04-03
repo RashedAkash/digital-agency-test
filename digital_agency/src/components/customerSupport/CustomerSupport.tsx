@@ -14,18 +14,18 @@ const CustomerSupport = () => {
   return (
     <ContainerFulid>
       <Container>
-        <div className="customer-support mt-133">
+        <div className="customer-support ">
           <div className="customer-support-img">
             <img src="/image/customerSupport/customer-support.svg" alt="" />
           </div>
           <div className="customer-support-text">
-            <div className="">
+            <div className="support-title">
               <SectionTitle
                 style={titleStyle}
                 title="Be a part of the next big thing"
               />
             </div>
-            <div className="customer-pra">
+            <div className="support-pra">
               <SectionText
                 style={textStyle}
                 text="We work with Brans, Startups, to SMEs. Colaborate for more impact and growt

@@ -13,7 +13,7 @@ const CustomPlugin = () => {
       <Container>
         <section className="customer-plugin  ">
           <div className="customer-plugin-text">
-            <div className="mb-25">
+            <div className="plugin-title">
               <SectionTitle title="Custome & Plugin Development" />
             </div>
             <div>

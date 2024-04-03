@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="navbar-logo">
               <img src="/image/logo/logo.svg" alt="" />
             </div>
-            <div>
+            <div className="menus">
               <ul className="navbar-list">
                 <li className="navbar-link">
                   <a href="">home</a>

@@ -11,7 +11,7 @@ const BrandingAndDesgin = () => {
   return (
     <ContainerFulid>
       <Container>
-        <section className="branding-section bg-none mt-138  ">
+        <section className="branding-section bg-none   ">
           <div className="branding-section-img block ">
             <img
               src="/image/branding/designer-team-working-on-creative-design.svg"
