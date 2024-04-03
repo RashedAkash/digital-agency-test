@@ -7,8 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <ContainerFulid
-    >
+    <ContainerFulid>
       <Container>
         {/* mobile menu */}
         <header className="mobile-menu desktop-hidden">
@@ -36,26 +35,29 @@ const Navbar = () => {
           </div>
         </header>
         {/* <menu></menu> */}
-        <header className="navbar ">
-          <div className="navbar-logo">
-            <img src="/image/logo/logo.svg" alt="" />
-          </div>
-          <div>
-            <ul className="navbar-list">
-              <li className="navbar-link">
-                <a href="">home</a>
-              </li>
-              <li className="navbar-link">
-                <a href="">about</a>
-              </li>
-              <li className="navbar-link">
-                <a href="">testimonials</a>
-              </li>
-              <li className="navbar-link">
-                <a href="">contact</a>
-              </li>
-            </ul>
-          </div>
+        <header>
+          <nav className="navbar ">
+            <div className="navbar-logo">
+              <img src="/image/logo/logo.svg" alt="" />
+            </div>
+            <div>
+              <ul className="navbar-list">
+                <li className="navbar-link">
+                  <a href="">home</a>
+                </li>
+                <li className="navbar-link">
+                  <a href="">about</a>
+                </li>
+                <li className="navbar-link">
+                  <a href="">testimonials</a>
+                </li>
+                <li className="navbar-link">
+                  <a href="">contact</a>
+                </li>
+              </ul>
+            </div>
+            {/* <div className="navbar-wrapper"></div> */}
+          </nav>
         </header>
       </Container>
     </ContainerFulid>

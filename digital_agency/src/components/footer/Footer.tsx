@@ -4,7 +4,7 @@ import ContainerFulid from "../../shared/ContainerFulid";
 const Footer = () => {
   return (
     <ContainerFulid>
-      <div className="full-footer mt-138">
+      <footer className="full-footer mt-138">
         <Container>
           <div className="footer">
             <div className="footer-col footer-logo">
@@ -71,7 +71,7 @@ const Footer = () => {
             © Matheus. Todos os direitos reservados
           </p>
         </Container>
-      </div>
+      </footer>
     </ContainerFulid>
   );
 };

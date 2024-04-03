@@ -4,26 +4,25 @@ import ContainerFulid from '../../shared/ContainerFulid'
 import SectionText from "../../shared/SectionText";
 
 const Hero = () => {
-  const textStyle: React.CSSProperties = {
-    fontSize: "18px",
-    width: "85%",
-  };
+
   return (
     <ContainerFulid>
       <Container>
-        <section className="hero mb-160 ">
+        <section className="hero  ">
           <div className="hero-text">
             <h1 className="hero-title">
               Building digital products, brands & experience
             </h1>
             <div className="hero-pra">
               <SectionText
-                style={textStyle}
+                
                 text="Digital Agency is your online team management tool that easy and prompt
 "
               />
             </div>
-            <BlueButton text="contact us" />
+            <div className="hero-button">
+              <BlueButton text="contact us" />
+            </div>
           </div>
           <div className="hero-img">
             <img

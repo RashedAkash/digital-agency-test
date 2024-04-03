@@ -12,14 +12,16 @@ const BrandingAndDesgin = () => {
     <ContainerFulid>
       <Container>
         <section className="branding-section bg-none mt-138  ">
-          <div className="branding-section-img block">
+          <div className="branding-section-img block ">
             <img
               src="/image/branding/designer-team-working-on-creative-design.svg"
               alt=""
             />
           </div>
           <div className="branding-section-text">
-            <SectionTitle title="Branding & Design system" />
+            <div className="mb-32">
+              <SectionTitle title="Branding & Design system" />
+            </div>
             <SectionText
               style={textStyle}
               text="Commonly used in the graphic, print & publishing industris for previewing visual layout and mockups"

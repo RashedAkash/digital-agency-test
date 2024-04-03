@@ -22,10 +22,10 @@ const Testimonial = () => {
       <Container>
         <section className="  mt-138 responsive-mt ">
           <div>
-            <div className="mb-15">
+            <div className="mb-10">
               <SectionSubTitle style={subTitleStyle} title="testimonials" />
             </div>
-            <div className="mb-45">
+            <div className="mb-38">
               <SectionTitle
                 style={titleStyle}
                 title="Read What Other have to Say"
